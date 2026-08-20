@@ -2,9 +2,17 @@
   "name": "Meu Mercado",
   "short_name": "Meu Mercado",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f3f4f6",
-  "theme_color": "#111827",
+  "background_color": "#050914",
+  "theme_color": "#075BFF",
   "lang": "pt-BR",
-  "icons": []
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
